@@ -1,0 +1,37 @@
+{
+  "name": "@jdthornton/animated-modal",
+  "version": "1.1.9",
+  "description": "React animated modal component",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:css": "postcss src/styles.css -o styles.css --use autoprefixer"
+  },
+  "keywords": [],
+  "author": "Jake Thornton",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "postcss-cli": "^9.0.1",
+    "postcss-loader": "^6.1.1",
+    "react": "^17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@jdthornton/classnames": "^1.0.1",
+    "@jdthornton/modal": "^1.4.2",
+    "@jdthornton/useanimate": "^1.1.2"
+  },
+  "files": [
+    "/dist",
+    "styles.css",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdthornton/animated-modal.git"
+  },
+  "homepage": "https://jdthornton.github.io/#/animated-modal"
+}
